@@ -889,8 +889,8 @@ pre {
   .col-md-6 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%; }
+    flex: 0 0 65%;
+    max-width: 65%; }
   .col-md-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.33333%;
@@ -4365,7 +4365,7 @@ input[type="button"].btn-block {
 .media-body {
   -webkit-box-flex: 1;
   -ms-flex: 1;
-  flex: 1; }
+  flex: 1;}
 
 .list-group {
   display: -webkit-box;
@@ -6511,6 +6511,9 @@ button.bg-dark:focus {
 .my-5 {
   margin-top: 3rem !important; }
 
+.mt-6{
+  margin-top: 1rem !important; }
+
 .mr-5,
 .mx-5 {
   margin-right: 3rem !important; }
@@ -8192,15 +8195,15 @@ h1, h2, h3, h4, h5,
 
 .navbar-brand {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Poppins", Arial, sans-serif;
   line-height: 1;
-  text-transform: uppercase; }
+  /*text-transform: uppercase;*/ }
   .navbar-brand span {
     display: block;
     font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase; }
+    font-weight: 300;
+    /*text-transform: uppercase;*/ }
 
 .hero-wrap {
   width: 100%;
@@ -8217,7 +8220,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .5;
+    opacity: .65;
     background: #000000; }
   .hero-wrap.hero-wrap-2 {
     height: 600px; }
@@ -8226,6 +8229,9 @@ h1, h2, h3, h4, h5,
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 600px; }
 
+.heading-margin {
+  margin-top: -6%;
+}
 .slider-text h1 {
   font-size: 48px;
   color: #fff;
@@ -8440,11 +8446,12 @@ h1, h2, h3, h4, h5,
         height: 300px; } }
 
 .services-section {
-  padding: 0; }
+  padding: 0;
+}
   @media (min-width: 768px) {
     .services-section .container-fluid {
-      margin-top: -228px;
-      border-top: 1px solid rgba(255, 255, 255, 0.3); } }
+      margin-top: -205px;
+      /*border-top: 1px solid rgba(255, 255, 255, 0.3);*/ } }
   @media (max-width: 991.98px) {
     .services-section .container-fluid {
       background: rgba(255, 255, 255, 0.9); } }
@@ -8468,13 +8475,16 @@ h1, h2, h3, h4, h5,
     color: #fff; }
     .services h3 a {
       color: #000000; }
+.services p {
+  font-size: 14px;
+  color: #cccccc; }
     @media (min-width: 992px) {
       .services h3 a {
         color: #fff; } }
   .services .num {
     font-weight: 600;
     color: #83b582;
-    font-size: 18px; }
+    font-size: 25px; }
 
 .practice-area {
   display: block;
@@ -8726,7 +8736,14 @@ textarea.form-control {
     .ftco-footer .ftco-footer-widget .btn-primary:hover {
       background: #fff;
       border: 2px solid #fff !important; }
-  .ftco-footer p {
+.ftco-footer .ftco-footer-widget{
+  font-size: 14px;
+}
+.ftco-footer .ftco-footer-widget .ftco-heading-2 {
+  font-size: 22px;
+  font-weight : 600;
+}
+.ftco-footer p {
     color: rgba(255, 255, 255, 0.7); }
   .ftco-footer a {
     color: rgba(255, 255, 255, 0.7); }
